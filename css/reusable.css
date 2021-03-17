@@ -1,0 +1,88 @@
+.img-fluid{display:block; 
+    max-width: 100%; 
+    height: auto;
+    
+}
+.btn{
+    outline: 0; 
+    padding: 10px 25px;
+    border: 2px solid #000;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    
+}
+.yellow-btn{
+    outline: 0;
+    padding: 10px 25px;
+    margin: 0;
+    font-size: 16px;
+    background: #ffbb02;
+}
+p{
+    line-height: 2;
+    font-size: 16px;
+    font-weight: light;
+}
+h2{
+    color: #000;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+h2 span{
+    color: #000;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+.text-center{text-align: center;}
+.text-left{text-align: left;}
+.text-right{text-align: right;}
+.text-justify{text-align: justify;}
+.d-block{display:block}
+.d-inline-block{display: inline-block;}
+.d-none{display: none;}
+
+@media(min-width:576px){
+    .text-sm-center{text-align: center;}
+    .text-sm-left{text-align: left;}
+    .text-sm-right{text-align: right;}
+    .text-sm-justify{text-align: justify;}
+    .d-sm-block{display:block}
+    .d-sm-inline-block{display: inline-block;}
+    .d-sm-none{display: none;}
+}
+
+@media(min-width:768px){
+    .text-md-center{text-align: center;}
+    .text-md-left{text-align: left;}
+    .text-md-right{text-align: right;}
+    .text-md-justify{text-align: justify;}
+    .d-md-block{display:block}
+    .d-md-inline-block{display: inline-block;}
+    .d-md-none{display: none;}
+}
+
+@media(min-width:992px){
+    .text-lg-center{text-align: center;}
+    .text-lg-left{text-align: left;}
+    .text-lg-right{text-align: right;}
+    .text-lg-justify{text-align: justify;}
+    .d-lg-block{display:block}
+    .d-lg-inline-block{display: inline-block;}
+    .d-lg-none{display: none;}
+}
+
+@media(min-width:1200px){
+    .text-xl-center{text-align: center;}
+    .text-xl-left{text-align: left;}
+    .text-xl-right{text-align: right;}
+    .text-xl-justify{text-align: justify;}
+    .d-xl-block{display:block}
+    .d-xl-inline-block{display: inline-block;}
+    .d-xl-none{display: none;}
+}
