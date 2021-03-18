@@ -16,14 +16,15 @@
         <link rel="stylesheet" href="css/reusable.css">
         <link rel="stylesheet" href="css/main.css">
         
+        
     </head>
 
     <body>
 
         <!-- Header -->
         <header id="header">
-            <div class="container">
-                <div class="row topNav">
+            <div class="container ">
+                <div class="row topNav d-none d-md-block">
                     <div class="col-sm-12">
                         <h6>Construct Limited 
                             <span><i class="far fa-envelope"></i>info@constructs.com 
@@ -53,8 +54,8 @@
                 </div>
             </div>
             <div class="container main-page">
-                <div class="row ">
-                    <div class="col-sm-12 mainHeading mt70">
+                <div class="row">
+                    <div class="col-sm-12 mainHeading mt80 ">
                         <h1>
                             We<br>
                             <span>Build</span><br>
@@ -65,7 +66,7 @@
                             <br>architecture and construction company.
                         </p><br>
                     </div>
-                    <div class="col-sm-12 mb70">
+                    <div class="col-sm-12 mb140">
                         <a class="btn" href="">Contact Us</a></button>
                     </div>
                     <div class="col-sm-12">
@@ -93,7 +94,7 @@
                    </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-6 buildingHeading mt30 mb20">
+                    <div class="col-md-6 buildingHeading mt30 mb20">
                         <div class="row">
                         <h2><span> We  develop building</span><br>
                         Building a new green house</h2>
@@ -106,7 +107,7 @@
                             initial sketches to the final construction.<br>
                         </p>
                         </div>
-                        <div class="row options">
+                        <div class="row options mb50">
                             <div class="col-sm-3 option">
                                 <a href=""><i class="far fa-file-alt"></i> 1.Plan</a></button>
                                 
@@ -120,58 +121,71 @@
                             </div>
                         </div>
 
-                        <div class="row mt50">
+                        <div class="row ">
                             <a class="btn" href="">Contact Us</a></button>
                         </div>
                     </div>
-                    <div class="col-sm-6 BuildingImage mt70 mb150">
+                    <div class="col-md-6 BuildingImage mt70 mb150 d-none d-md-block ">
                         <img class = "img-fluid img1" src="img/img1.jpeg" alt="buildingImage">
-                        <div class="row">
-                                <img class = "img2" src="img/img6.jpeg" alt="buildingImage">
-                        </div>
+                        <img class = "img2 d-none d-lg-block" src="img/img6.jpeg" alt="buildingImage">
                     </div>
                 </div>
             </div>
-        </section>
+        </section> 
 
         <!-- What We Do - Projects-->
         <section id="project">
             <div class="container what-we-do">
                 <div class="row">
-                    <div class="col-sm-2">
-                        <h2><span> See what we do</span><br>
-                             Projects</h2>
+                    <div class="col-md-2">
+                        <h2><span>See what we do</span><br>
+                            Projects</h2>
                     </div>
-                    <div class="col-sm-7">
+                    <div class="col-md-7">
                         <p>We are a company that offers design and build services for you from <br>
                             initial sketches to the final construction. </p>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-md-3 d-none d-md-block ">
                         <img class = "img-fluid" src="img/projects.png" alt="logo">
                     </div>
                 </div>
             </div>
+            <!-- Side Menu Bar -->
             <div class="container">
-                <div class="row mt40">
+                <div class="row mt40 ">
                     <div class="col-sm-1 side-menu">
-                        <nav>
-                            <ul>
-                                <li><a href=""><span><i class="fas fa-city"></i></span></a>
-                                <ul>BUILDING</ul></li>
-                                <li><a href=""><Span><i class="fas fa-paint-roller"></i></Span></a>
-                                <ul>PAINT JOB</ul></li>
-                                <li><a href=""><span><i class="fas fa-hard-hat active"></i></span></a>
-                                <ul>CONSTRUCTION</ul></li>
-                                <li><a href=""><span><i class="fas fa-faucet"></i></span></a>
-                                <ul>PLUMBING</ul></li>
-                                <li><a href=""><span><i class="fas fa-wrench"></i></span></i></a>
-                                <ul>FIXING</ul></li>
-                                <li><a href=""><span><i class="fas fa-truck-loading"></i></span></i></a>
-                                <ul>TRUCK</ul></li>
-                            </ul>
-                        </nav>
+                        <ul >
+                            <li><a href="">
+                                <span class="icon"><i class="fas fa-city"></i></span>
+                                <span  class="title">BUILDING</span></a>
+                            </li>
+                            <li><a href="">
+                                <span class="icon"><i class="fas fa-paint-roller"></i></span>
+                                <span  class="title">PAINT JOB</span></a>
+                            </li>
+                            <li><a href="">
+                                <span class="icon"><i class="fas fa-hard-hat active"></i></span>
+                                <span class="title">CONSTRUCTION</span></a>
+                            </li>
+                            <li><a href="">
+                                <span class="icon"><i class="fas fa-faucet"></i></span>
+                                <span class="title">PLUMBING</span></a>
+                            </li>
+                            <li><a href="">
+                                <span class="icon"><i class="fas fa-tools"></i></span>
+                                <span  class="title">FIXING</span></a>
+                            </li>
+                            <li><a href="">
+                                <span class="icon"><i class="fas fa-truck-loading"></i></span>
+                                <span class="title">TRUCK</span></a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="col-sm-7 ">
+
+
+
+                    <!-- Slider and side images-->
+                    <div class="col-sm-7 d-none d-md-block">
                         <div class="hoverBox">
                             <div class="prev-btn">
                                 <i class="fas fa-angle-left"></i>
@@ -190,13 +204,15 @@
                             <div class="nameBox">
                                 <h4><span>|</span>Afarist Building</h4>
                             </div>
+                            <div class="next-btn">
+                                <i class="fas fa-angle-right"></i>
+                            </div>
                         </div>
-                        <div class="next-btn">
-                            <i class="fas fa-angle-right"></i>
+                        <div class="row">
+                            <div class="navigation-dots"></div>
                         </div>
-
-                        <div class="navigation-dots"></div>
                     </div>
+                    <!-- Side Images -->
                     <div class="col-sm-4 side-images">
                         <div class="hoverBox">
                             <img class = "img-fluid" src="img/img17.jpeg" alt="SlideImage">
@@ -213,10 +229,11 @@
                     </div>
                 </div>
             </div>
+            <!-- Project Footer -->
             <footer>
-                <div class="container">
-                    <div class="row project-footer">
-                        <div class="col-sm-2">
+                <div class="container ">
+                    <div class="row project-footer d-none d-md-block">
+                        <div class="col-sm-2 d-none d-md-block">
                             <img class = "img-fluid" src="img/image1.png" alt="image1">
                         </div>
                         <div class="col-sm-7">
@@ -224,7 +241,7 @@
                             <p>We are a company that offers design and build services for you from initial sketches 
                                 to the final construction. </p>
                         </div>
-                        <div class="col-sm-3 mt70">
+                        <div class="col-sm-3 mt70 ">
                             <a class="btn" href="">Contact Us</a></button>
                         </div>
                     </div>
@@ -241,52 +258,61 @@
                         <img class = "img-fluid yellowDash" src="img/yellowDash.png" alt="">
                     </div>  
                 </div>
-                <div class="row mt50 mb80">
-                    <div class="col-sm-4 mb15">
-                        <div class="row ">
-                            <div class="col-sm-2">
-                                <img class = "img-fluid worker" src="img/worker1.png" alt="worker">
+                <div class="row others-container mt50 mb80">
+                    <div class="col-sm-4">
+                        <div class="row others-left mt25">
+                            <div class="image">
+                                <img class = "img-fluid" src="img/worker1.png" alt="worker">
                             </div>
-                            <h3>Jon Doe</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, onsectetur adipiscing elit. 
-                                Quisque nec erat erat. er blandit, nulla quis fermentum.
-                            </p>
+                            <div class="content">
+                                <h3>Jon Doe</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, onsectetur adipiscing elit. 
+                                    Quisque nec erat erat. er blandit, nulla quis fermentum.
+                                </p>
+                            </div>
                         </div>
-                        <div class="row">
-                            <div class="col-sm-2">
-                                <img class = "img-fluid worker" src="img/worker1.png" alt="worker">
+                        <div class="row others-left mt60">
+                            <div class="image">
+                                <img class = "img-fluid" src="img/worker1.png" alt="worker">
                             </div>
-                            <h3>Jon Doe</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, onsectetur adipiscing elit. 
-                                Quisque nec erat erat. er blandit, nulla quis fermentum.
-                            </p>
+                            <div class="content">
+                                <h3>Jon Doe</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, onsectetur adipiscing elit. 
+                                    Quisque nec erat erat. er blandit, nulla quis fermentum.
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-sm-4">
-                        <img class = "img-fluid image" src="img/image3.png" alt="worker">
+                        <img class = "img-fluid center-image" src="img/image3.png" alt="worker">
                     </div>
                     <div class="col-sm-4">
-                        <div class="row">
-                            <div class="col-sm-2">
-                                <img class = "img-fluid worker" src="img/worker1.png" alt="worker">
+                        <div class="row others-right mt25">
+                        
+                            <div class="content">
+                                <h3>Jon Doe</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, onsectetur adipiscing elit. 
+                                    Quisque nec erat erat. er blandit, nulla quis fermentum.
+                                </p>
                             </div>
-                            <h3>Jon Doe</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, onsectetur adipiscing elit. 
-                                Quisque nec erat erat. er blandit, nulla quis fermentum.
-                            </p>
+                            <div class="image">
+                                <img class = "img-fluid" src="img/worker1.png" alt="worker">
+                            </div>
                         </div>
-                        <div class="row">
-                            <div class="col-sm-2">
-                                <img class = "img-fluid worker" src="img/worker1.png" alt="worker">
+                        <div class="row others-right mt60">
+                            <div class="content">
+                                <h3>Jon Doe</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, onsectetur adipiscing elit. 
+                                    Quisque nec erat erat. er blandit, nulla quis fermentum.
+                                </p>
                             </div>
-                            <h3>Jon Doe</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, onsectetur adipiscing elit. 
-                                Quisque nec erat erat. er blandit, nulla quis fermentum.
-                            </p>
+                            <div class="image">
+                                <img class = "img-fluid" src="img/worker1.png" alt="worker">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -297,10 +323,17 @@
         <section id="services">
             <div class="container service">
                 <div class="row">
-                    <div class="col-sm-5 ">
+                
+                    <div class="col-sm-5 d-none d-md-block">
                         <img class = "img-fluid image" src="img/img3.jpeg" alt="">
+
                     </div>
-                    <div class="col-sm-7 quality mt25">
+                    <div class="pin d-none d-md-block">
+                        <img class="img- fluid left-pin" src="img/pin.png">
+                        <img class="img-fluid right-pin" src="img/pin.png">
+                    </div>
+
+                    <div class="col-sm-7 quality ">
                         <h1>
                             Providing Personalized and high <br> quality services
                         </h1>
@@ -309,6 +342,7 @@
                             erat. er blandit, nulla quis fermentumLorem ipsum dolor sit amet,<br>
                             onsectetur adipiscing elit. Quisque nec erat erat. er blandit, nulla quis<br>
                         </p><br>
+                        
                         <a class="red-btn" href="">Contact Us</a></button>
                     </div>
                 </div>
@@ -327,7 +361,7 @@
                         </form>
                         <a class="subscribe-btn" href="">Subscribe</a></button>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 d-none d-md-block">
                        <img class = "img-fluid" src="img/image2.png" alt="logo">
                     </div>
                 </div>
